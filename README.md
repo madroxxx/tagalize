@@ -1,4 +1,4 @@
-# mypluralize
+# MyTagalize
 A Node.js module that returns the localizes
 ## Installation
 ```sh

@@ -5,18 +5,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 * @Param: {string}
 * @Retrun: {string}
 */
-var getTagalized = /** @class */ (function () {
-    function getTagalized() {
-    }
-    getTagalized.prototype.localBatang = function (str) {
+var getTagalized;
+(function (getTagalized) {
+    function localBatang(str) {
         return str + "-EY";
-    };
-    getTagalized.prototype.localIlong = function (str) {
+    }
+    getTagalized.localBatang = localBatang;
+    function localIlong(str) {
         return str + "-OY";
-    };
-    getTagalized.prototype.localCeb = function (str) {
+    }
+    getTagalized.localIlong = localIlong;
+    function localCeb(str) {
         return str + "-IY";
-    };
-    return getTagalized;
-}());
-exports.getTagalized = getTagalized;
+    }
+    getTagalized.localCeb = localCeb;
+})(getTagalized = exports.getTagalized || (exports.getTagalized = {}));

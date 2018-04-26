@@ -3,14 +3,14 @@
 * @Param: {string}
 * @Retrun: {string}
 */
-export class getTagalized {
-     localBatang ( str: any ) : string {
+export namespace getTagalized {
+     export function localBatang ( str: any ) : string {
           return str + "-EY";
      }
-     localIlong ( str: any ) : string {
+     export function localIlong ( str: any ) : string {
           return str + "-OY";
      }
-     localCeb ( str: any ) : string {
+     export function localCeb ( str: any ) : string {
           return str + "-IY";
      }
 }

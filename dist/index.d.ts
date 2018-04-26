@@ -3,8 +3,8 @@
 * @Param: {string}
 * @Retrun: {string}
 */
-export declare class getTagalized {
-    localBatang(str: any): string;
-    localIlong(str: any): string;
-    localCeb(str: any): string;
+export declare namespace getTagalized {
+    function localBatang(str: any): string;
+    function localIlong(str: any): string;
+    function localCeb(str: any): string;
 }
