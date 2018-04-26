@@ -3,6 +3,14 @@
 * @Param: {string}
 * @Retrun: {string}
 */
-export function getTagalized ( str: any ) : string {
-     return str + "-EY";
+export class getTagalized {
+     localBatang ( str: any ) : string {
+          return str + "-EY";
+     }
+     localIlong ( str: any ) : string {
+          return str + "-OY";
+     }
+     localCeb ( str: any ) : string {
+          return str + "-IY";
+     }
 }
