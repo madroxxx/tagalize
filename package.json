@@ -1,0 +1,23 @@
+{
+  "name": "tagalize",
+  "version": "1.0.0",
+  "description": "This will localize to tagalog",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madroxxx/tagalize.git"
+  },
+  "author": "MadRoxxx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madroxxx/tagalize/issues"
+  },
+  "homepage": "https://github.com/madroxxx/tagalize#readme",
+  "devDependencies": {
+    "typescript": "^2.8.3",
+    "typings": "^2.1.1"
+  }
+}
