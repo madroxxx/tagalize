@@ -2,7 +2,8 @@
   "name": "tagalize",
   "version": "1.0.0",
   "description": "This will localize to tagalog",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
