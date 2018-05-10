@@ -6,17 +6,23 @@ Object.defineProperty(exports, "__esModule", { value: true });
 * @Retrun: {string}
 */
 var getTagalized;
-(function (getTagalized) {
-    function localBatang(str) {
-        return str + "-EY";
+(function (getTagalized_1) {
+    var getTagalized = /** @class */ (function () {
+        function getTagalized(message) {
+            this.message = message;
+            this.word = message;
+        }
+        return getTagalized;
+    }());
+    function localBatang(bigkas) {
+        return bigkas.message + "-EY";
     }
-    getTagalized.localBatang = localBatang;
-    function localIlong(str) {
-        return str + "-OY";
+    function localIlong(bigkas) {
+        return bigkas.message + "-OY";
     }
-    getTagalized.localIlong = localIlong;
-    function localCeb(str) {
-        return str + "-IY";
+    function localCeb(bigkas) {
+        return bigkas.message + "-IY";
     }
-    getTagalized.localCeb = localCeb;
+    var user = new getTagalized("Cat");
+    document.body.innerHTML = localBatang(user);
 })(getTagalized = exports.getTagalized || (exports.getTagalized = {}));

@@ -3,7 +3,16 @@
        "target": "es5",
        "module": "commonjs",
        "declaration": true,
+       //"outFile": "./dist/tagalize.js",
        "outDir": "./dist",
        "strict": true
-  }
+  },
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+    "src/**/*.test.ts",
+    "node_modules",
+    "dist"
+  ]
 }
